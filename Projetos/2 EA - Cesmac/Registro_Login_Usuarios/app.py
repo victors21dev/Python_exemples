@@ -47,7 +47,6 @@ def tela(tipo_tela):
             return 0
         elif eventos == "registrar":
             Sg.WINDOW_CLOSED
-            print("Retorna 1")
             janela.close()
             return 1
         elif eventos == "login":
